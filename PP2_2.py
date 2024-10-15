@@ -1,8 +1,13 @@
-
+'''
+    Lesson: If and Else Assignment
+    Author: Aiden
+    Date Created: October 15, 2024
+    Date Last Modified: October 15, 2024
+'''
 
 def q1(): 
   #Write Assignment code here
-  num = input("Input an interger: ")
+  num = int(input("Input an integer: "))
   if num == 5:
     print("The number is Five")
   else:
@@ -10,7 +15,7 @@ def q1():
 
 def q2(): 
   #Write Assignment code here
-  num1 = int(input("Input a number: "))
+  num1 = float(input("Input a number: "))
   if num1 >= 1:
     print("Positive")
   else:
@@ -18,8 +23,8 @@ def q2():
 
 def q3(): 
   #Write Assignment code here
-  num2 = int(input("Input an interger: "))
-  if num2%2:
+  num2 = int(input("Input an integer: "))
+  if not num2%2:
     print("Even")
   else:
     print("Odd")
